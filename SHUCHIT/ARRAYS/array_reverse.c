@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 //abhi padhne ki jarwat hai thodi sir
@@ -14,6 +15,13 @@ int reverse(int arr[], int s)
     }
     return *arr;
 }
+
+void pause()
+{
+    system("pause>nul");
+    return;
+}
+
 int main()
 {
     int arr[] = {1,
@@ -38,5 +46,6 @@ int main()
     {
         printf("%d \n", arr[i]);
     }
+    pause(); // you pause here
     return 0;
 }
